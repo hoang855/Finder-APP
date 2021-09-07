@@ -1,0 +1,36 @@
+.uesrtab-container {
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.uesrtab-item {
+  width: 145px;
+  height: 35px;
+  background-color: bisque;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin: 15px 10px;
+  color: white;
+}
+
+.item-1{
+    background-color: #1877f2;
+}
+
+.item-2{
+    background-color: #28a745;
+}
+
+.item-3{
+    background-color: #f4f4f4;
+    border: 1px solid rgb(102, 102, 102);
+    color: black;
+}
+
+.item-4{
+    background-color: #333;
+}
