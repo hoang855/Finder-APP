@@ -16,6 +16,8 @@ class Dashboard extends Component {
     try {
       const login = this.props.match.params.login;
       const response = await UserAPI.loginUser(login);
+
+      
       const responseRepo = await axios.get(`https://api.github.com/users/${login}/repos`)
       this.setState({
         aser: response.data,
